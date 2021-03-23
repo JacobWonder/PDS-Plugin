@@ -2,9 +2,9 @@
 
 /**
 
- * @author Divi Space
+ * @author Jacob The Web Dev
 
- * @copyright 2017
+ * @copyright 2021
 
  */
 
