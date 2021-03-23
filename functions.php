@@ -47,11 +47,11 @@ function misha_remove_my_account_links( $menu_links ){
 
 function my_account_menu_order() {
  	$menuOrder = array(
- 		'orders'             => __( 'Your Payments', 'woocommerce' ),
- 		'edit-address'       => __( 'Addresses', 'woocommerce' ),
- 		'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
- 		'customer-logout'    => __( 'Log out', 'woocommerce' ),
 		'dashboard'          => __( 'Dashboard', 'woocommerce' )
+ 		'orders'             => __( 'Your Payments', 'woocommerce' ),
+ 		'edit-address'       => __( 'Billing Address', 'woocommerce' ),
+ 		//'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
+ 		'customer-logout'    => __( 'Log out', 'woocommerce' ),
  	);
  	return $menuOrder;
  }
