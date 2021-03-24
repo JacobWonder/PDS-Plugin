@@ -30,16 +30,13 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_enqueue_parent' );
 
 add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
-    global $woocommerce;
-
-    $post_id = get_the_ID(); //you can directly use get_the_ID() as you are on single product page or you can also make use of global $product object and then $product->ID
-
-    if( isset($_POST['checkout_now']) ){      //assuming the form method is 'post'
-        $woocommerce->cart->add_to_cart( $post_id );
-        $checkout_url = $woocommerce->cart->get_checkout_url();
-        wp_redirect($checkout_url);
-        exit;
+//custom trigger for amelia paymentComplete on order status partially-paid 
+add_action('woocommerce_order_status_partially-paid','wcdp_custom_trigger_amelia_payment_complete');
+function wcdp_custom_trigger_amelia_payment_complete($order_id){
+    if(method_exists('AmeliaBooking\Infrastructure\WP\Integrations\WooCommerce\WooCommerceService','paymentComplete')){
+        AmeliaBooking\Infrastructure\WP\Integrations\WooCommerce\WooCommerceService::paymentComplete($order_id);
     }
+}
 
 add_filter ( 'woocommerce_account_menu_items', 'misha_remove_my_account_links' );
 function misha_remove_my_account_links( $menu_links ){
