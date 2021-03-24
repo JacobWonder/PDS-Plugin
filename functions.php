@@ -30,7 +30,6 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_enqueue_parent' );
 
 add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
-
 add_filter ( 'woocommerce_account_menu_items', 'misha_remove_my_account_links' );
 function misha_remove_my_account_links( $menu_links ){
  
@@ -48,11 +47,11 @@ function misha_remove_my_account_links( $menu_links ){
 
 function my_account_menu_order() {
  	$menuOrder = array(
-		'dashboard'          => __( 'Dashboard', 'woocommerce' )
  		'orders'             => __( 'Your Payments', 'woocommerce' ),
- 		'edit-address'       => __( 'Billing Address', 'woocommerce' ),
- 		//'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
+ 		'edit-address'       => __( 'Addresses', 'woocommerce' ),
+ 		'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
  		'customer-logout'    => __( 'Log out', 'woocommerce' ),
+		'dashboard'          => __( 'Dashboard', 'woocommerce' )
  	);
  	return $menuOrder;
  }
