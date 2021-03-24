@@ -30,13 +30,6 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_enqueue_parent' );
 
 add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 
-//Remove cart page, redirect to checkout, this is needed as partial payments plugin DOES NOT work without the cart page setup for some reason
-add_filter('woocommerce_add_to_cart_redirect', 'themeprefix_add_to_cart_redirect');
-function themeprefix_add_to_cart_redirect() {
- global $woocommerce;
- $checkout_url = wc_get_checkout_url();
- return $checkout_url;
-}
 
 add_filter ( 'woocommerce_account_menu_items', 'misha_remove_my_account_links' );
 function misha_remove_my_account_links( $menu_links ){
