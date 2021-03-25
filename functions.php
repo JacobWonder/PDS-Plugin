@@ -61,11 +61,11 @@ function misha_remove_my_account_links( $menu_links ){
 
 function my_account_menu_order() {
  	$menuOrder = array(
+		'dashboard'          => __( 'Dashboard', 'woocommerce' ),
+ 		'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
  		'orders'             => __( 'Your Payments', 'woocommerce' ),
  		'edit-address'       => __( 'Addresses', 'woocommerce' ),
- 		'edit-account'    	=> __( 'Account Details', 'woocommerce' ),
- 		'customer-logout'    => __( 'Log out', 'woocommerce' ),
-		'dashboard'          => __( 'Dashboard', 'woocommerce' )
+ 		'customer-logout'    => __( 'Log out', 'woocommerce' )
  	);
  	return $menuOrder;
  }
