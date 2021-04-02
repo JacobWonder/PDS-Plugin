@@ -33,7 +33,7 @@ add_action( 'wp_enqueue_scripts', 'ds_ct_loadjs' );
 //function wpb_custom_billing_fields( $fields = array() ) {
 //	unset($fields['billing_address_2']);
 //	return $fields;
-}
+//}
 add_filter('woocommerce_billing_fields','wpb_custom_billing_fields');
 
 //custom trigger for amelia paymentComplete on order status partially-paid 
