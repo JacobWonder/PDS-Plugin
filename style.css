@@ -11,34 +11,4 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 ------------------------------ ADDITIONAL CSS HERE ------------------------------*/
-.woocommerce-billing-fields h3 {
-    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 60px;
-    color: #ffffff!important;
-    line-height: 1.2em;
-    text-align: center;
-}
-.woocommerce-additional-fields h3 {
-    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
-    color: #ffffff;
-}
-.woocommerce form .form-row {
-    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
-    font-size: 17px;
-    color: #ffffff !important;
-}
-h3#order_review_heading {
-    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
-    font-size: 60px;
-    color: #ffffff!important;
-    line-height: 1.7em;
-    text-align: center;
-}
-.woocommerce-checkout-review-order {
-    color: #ffffff;
-    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
-}
+
