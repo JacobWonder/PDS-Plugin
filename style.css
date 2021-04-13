@@ -11,4 +11,21 @@
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 
 ------------------------------ ADDITIONAL CSS HERE ------------------------------*/
-
+.woocheckoutoverride h1 {
+    font-family: 'Oswald',Helvetica,Arial,Lucida,sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #ffffff!important;
+    line-height: 1.2em;
+    text-align: center;
+}
+.woocheckoutoverride h3 {
+     font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+     color: #ffffff!important;
+}
+.woocheckoutoverride p {
+    color: #ffffff!important;
+    font-family: 'Roboto Condensed',Helvetica,Arial,Lucida,sans-serif;
+    font-size: 17px;
+}
