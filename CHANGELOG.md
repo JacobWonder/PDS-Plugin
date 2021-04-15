@@ -7,13 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Upcoming]
 
-- 
+- Subscriptions
+- Easy Hero image switch
 
 ## [1.1.0] - Apr.15.2021
 
 ### Added
 
 - Socials to Footer
+- Changelog
 
 ### Changed
 
