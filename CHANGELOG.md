@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Upcoming]
 
-
+- 
 
 ## [1.1.0] - Apr.15.2021
 
@@ -20,67 +20,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Background Gradient Tweaked on Home and Contact
 
 
-## [0.0.7] - 2015-02-16
-
-### Added
-
-- Link, and make it obvious that date format is ISO 8601.
-
-### Changed
-
-- Clarified the section on "Is there a standard change log format?".
-
-### Fixed
-
-- Fix Markdown links to tag comparison URL with footnote-style links.
-
-## [0.0.6] - 2014-12-12
-
-### Added
-
-- README section on "yanked" releases.
-
-## [0.0.5] - 2014-08-09
-
-### Added
-
-- Markdown links to version tags on release headings.
-- Unreleased section to gather unreleased changes and encourage note
-  keeping prior to releases.
-
-## [0.0.4] - 2014-08-09
-
-### Added
-
-- Better explanation of the difference between the file ("CHANGELOG")
-  and its function "the change log".
-
-### Changed
-
-- Refer to a "change log" instead of a "CHANGELOG" throughout the site
-  to differentiate between the file and the purpose of the file — the
-  logging of changes.
-
-### Removed
-
-- Remove empty sections from CHANGELOG, they occupy too much space and
-  create too much noise in the file. People will have to assume that the
-  missing sections were intentionally left out because they contained no
-  notable changes.
-
-## [0.0.3] - 2014-08-09
-
-### Added
-
-- "Why should I care?" section mentioning The Changelog podcast.
-
-## [0.0.2] - 2014-07-10
-
-### Added
-
-- Explanation of the recommended reverse chronological release ordering.
-
-## [0.0.1] - 2014-05-31
+## [1.1.0] - Apr.12.2021
 
 ### Added
 
